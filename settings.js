@@ -1,9 +1,9 @@
 const settings = {
-  packname: 'Knight Bot',
+  packname: 'Adsani Bot',
   author: 'mruniquehacker',
   botName: "Adsani Bot",
   botOwner: 'Adsani', // Your name
-  ownerNumber: '628157057607', //Set your number here without + symbol, just add country code & number without any space
+  ownerNumber: '6281357057607', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
   maxStoreMessages: 20, 

@@ -42,7 +42,7 @@ function topMembers(sock, chatId, isGroup) {
 
     const sortedMembers = Object.entries(groupCounts)
         .sort(([, a], [, b]) => b - a)
-        .slice(0, 5); // Get top 5 members
+        .slice(0, 15); // Get top 5 members
 
     if (sortedMembers.length === 0) {
         sock.sendMessage(chatId, { text: 'No message activity recorded yet.' });
